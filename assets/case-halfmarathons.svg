@@ -1,0 +1,36 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Winding race route on a page grid with technical SEO error markers being resolved">
+  <rect width="640" height="400" fill="#0B0D0F"/>
+
+  <!-- page grid backdrop -->
+  <g stroke="#1A1D22" stroke-width="1">
+    <line x1="0" y1="100" x2="640" y2="100"/>
+    <line x1="0" y1="200" x2="640" y2="200"/>
+    <line x1="0" y1="300" x2="640" y2="300"/>
+    <line x1="160" y1="0" x2="160" y2="400"/>
+    <line x1="320" y1="0" x2="320" y2="400"/>
+    <line x1="480" y1="0" x2="480" y2="400"/>
+  </g>
+
+  <!-- race route -->
+  <path d="M 80 320 C 160 260, 200 340, 260 260 S 380 180, 420 240 S 520 140, 560 100"
+        stroke="#F0EFEA" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- start -->
+  <circle cx="80" cy="320" r="9" fill="#F0EFEA"/>
+  <!-- finish flag -->
+  <g transform="translate(560,70)">
+    <rect x="0" y="0" width="3" height="40" fill="#F0EFEA"/>
+    <path d="M 3 2 L 30 8 L 3 16 Z" fill="#C8500A"/>
+  </g>
+
+  <!-- resolved 404 markers along the route -->
+  <g font-family="IBM Plex Mono, monospace" font-size="10">
+    <circle cx="260" cy="260" r="12" fill="none" stroke="#C8500A" stroke-width="2"/>
+    <text x="260" y="264" fill="#C8500A" text-anchor="middle">✕</text>
+    <circle cx="420" cy="240" r="12" fill="none" stroke="#55564F" stroke-width="2"/>
+    <text x="420" y="244" fill="#55564F" text-anchor="middle">✕</text>
+  </g>
+
+  <text x="32" y="40" font-family="IBM Plex Mono, monospace" font-size="13" letter-spacing="1" fill="#FAFAF8">HALFMARATHONS.NET</text>
+  <text x="32" y="60" font-family="IBM Plex Mono, monospace" font-size="10" fill="#55564F">TECHNICAL AUDIT · 404s IDENTIFIED &amp; FIXED</text>
+</svg>
