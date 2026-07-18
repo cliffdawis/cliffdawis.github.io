@@ -1,0 +1,28 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Grid of product listings being scanned for SEO optimization">
+  <rect width="640" height="400" fill="#0B0D0F"/>
+
+  <!-- product grid -->
+  <g fill="#F0EFEA">
+    <rect x="90"  y="110" width="90" height="90" rx="2"/>
+    <rect x="200" y="110" width="90" height="90" rx="2"/>
+    <rect x="310" y="110" width="90" height="90" rx="2"/>
+    <rect x="90"  y="220" width="90" height="90" rx="2"/>
+    <rect x="200" y="220" width="90" height="90" rx="2"/>
+    <rect x="310" y="220" width="90" height="90" rx="2"/>
+  </g>
+  <!-- highlighted / optimized listing -->
+  <rect x="200" y="110" width="90" height="90" rx="2" fill="none" stroke="#C8500A" stroke-width="3"/>
+  <text x="245" y="160" font-family="IBM Plex Mono, monospace" font-size="9" fill="#C8500A" text-anchor="middle">#1</text>
+
+  <!-- scan / search sweep -->
+  <circle cx="480" cy="150" r="46" fill="none" stroke="#C8500A" stroke-width="4"/>
+  <line x1="512" y1="182" x2="555" y2="225" stroke="#C8500A" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- listing labels beneath grid -->
+  <text x="135" y="330" font-family="IBM Plex Mono, monospace" font-size="9" fill="#55564F" text-anchor="middle">GBP</text>
+  <text x="245" y="330" font-family="IBM Plex Mono, monospace" font-size="9" fill="#55564F" text-anchor="middle">BING</text>
+  <text x="355" y="330" font-family="IBM Plex Mono, monospace" font-size="9" fill="#55564F" text-anchor="middle">APPLE</text>
+
+  <text x="32" y="40" font-family="IBM Plex Mono, monospace" font-size="13" letter-spacing="1" fill="#FAFAF8">DARK WOLF COLLECTIBLES</text>
+  <text x="32" y="60" font-family="IBM Plex Mono, monospace" font-size="10" fill="#55564F">ON-PAGE SEO ACROSS LISTING PLATFORMS</text>
+</svg>
