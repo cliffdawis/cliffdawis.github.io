@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a lead moving through an automation workflow into a CRM">
+  <rect width="640" height="400" fill="#0B0D0F"/>
+
+  <!-- connecting lines -->
+  <path d="M 100 200 L 220 120" stroke="#55564F" stroke-width="2" fill="none"/>
+  <path d="M 100 200 L 220 200" stroke="#55564F" stroke-width="2" fill="none"/>
+  <path d="M 100 200 L 220 280" stroke="#55564F" stroke-width="2" fill="none"/>
+  <path d="M 260 120 L 380 200" stroke="#55564F" stroke-width="2" fill="none"/>
+  <path d="M 260 200 L 380 200" stroke="#C8500A" stroke-width="3" fill="none"/>
+  <path d="M 260 280 L 380 200" stroke="#55564F" stroke-width="2" fill="none"/>
+  <path d="M 420 200 L 540 200" stroke="#C8500A" stroke-width="3" fill="none"/>
+
+  <!-- lead source node -->
+  <circle cx="100" cy="200" r="34" fill="#F0EFEA"/>
+  <text x="100" y="205" font-family="IBM Plex Mono, monospace" font-size="11" fill="#0B0D0F" text-anchor="middle">LEAD</text>
+
+  <!-- intake nodes -->
+  <rect x="220" y="100" width="40" height="40" rx="2" fill="#F0EFEA"/>
+  <rect x="220" y="180" width="40" height="40" rx="2" fill="#F0EFEA"/>
+  <rect x="220" y="260" width="40" height="40" rx="2" fill="#F0EFEA"/>
+  <text x="240" y="95" font-family="IBM Plex Mono, monospace" font-size="9" fill="#55564F" text-anchor="middle">FORM</text>
+  <text x="240" y="175" font-family="IBM Plex Mono, monospace" font-size="9" fill="#55564F" text-anchor="middle">SMS</text>
+  <text x="240" y="335" font-family="IBM Plex Mono, monospace" font-size="9" fill="#55564F" text-anchor="middle">CALL</text>
+
+  <!-- automation core -->
+  <rect x="380" y="160" width="80" height="80" rx="4" fill="#C8500A"/>
+  <text x="420" y="196" font-family="IBM Plex Mono, monospace" font-size="10" fill="#FAFAF8" text-anchor="middle">GHL</text>
+  <text x="420" y="212" font-family="IBM Plex Mono, monospace" font-size="10" fill="#FAFAF8" text-anchor="middle">AUTO</text>
+
+  <!-- output -->
+  <circle cx="565" cy="200" r="34" fill="#F0EFEA"/>
+  <text x="565" y="197" font-family="IBM Plex Mono, monospace" font-size="9" fill="#0B0D0F" text-anchor="middle">BOOKED</text>
+  <text x="565" y="209" font-family="IBM Plex Mono, monospace" font-size="9" fill="#0B0D0F" text-anchor="middle">APPT</text>
+
+  <text x="32" y="40" font-family="IBM Plex Mono, monospace" font-size="13" letter-spacing="1" fill="#FAFAF8">NUMANA DIGITAL</text>
+  <text x="32" y="60" font-family="IBM Plex Mono, monospace" font-size="10" fill="#55564F">LEAD → AUTOMATION → APPOINTMENT</text>
+</svg>
